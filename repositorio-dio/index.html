@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gonçalves Felipe | Portfólio Front-End e TI</title>
+  <meta name="description" content="Portfólio profissional de Gonçalves Felipe Neto, estudante de Análise e Desenvolvimento de Sistemas e Analista de TI, com projetos em desenvolvimento web, infraestrutura e redes.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item"><a class="menu__link active" href="#home"><span class="menu__text">Home</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#projetos"><span class="menu__text">Projetos</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#sobre"><span class="menu__text">Sobre</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#contato"><span class="menu__text">Contato</span></a></li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo.png" alt="Logo Gonçalves Felipe">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item"><a class="menu__link active" href="#home"><i class="menu__icon bi bi-house-door"></i><span class="menu__text">Home</span></a></li>
+      <li class="menu__item"><a class="menu__link" href="#projetos"><i class="menu__icon bi bi-window-stack"></i><span class="menu__text">Projetos</span></a></li>
+      <li class="menu__item"><a class="menu__link" href="#sobre"><i class="menu__icon bi bi-person"></i><span class="menu__text">Sobre</span></a></li>
+      <li class="menu__item"><a class="menu__link" href="#contato"><i class="menu__icon bi bi-envelope"></i><span class="menu__text">Contato</span></a></li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento Front-End</h1>
+      <p>Gonçalves Felipe Neto — Estudante de ADS e Analista de TI</p> 
+      <ul class="menu menu--social">
+        <li><a class="menu__link" href="https://github.com/goncalvesfelip" target="_blank"><i class="menu__icon bi bi-github"></i></a></li>
+        <li><a class="menu__link" href="https://www.linkedin.com/in/gonçalves-felipe-neto-5a7221228" target="_blank"><i class="menu__icon bi bi-linkedin"></i></a></li>
+        <li><a class="menu__link" href="#" target="_blank"><i class="menu__icon bi bi-instagram"></i></a></li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary"><span>Ver Projetos</span><i class="bi bi-arrow-down-right"></i></button>  
+      </a>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/HTML.svg" alt="HTML"></li>
+      <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/CSS.svg" alt="CSS"></li>
+      <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/JavaScript.svg" alt="JavaScript"></li>
+      <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Bootstrap"></li>
+      <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/PacketTracer.svg" alt="Cisco Packet Tracer"></li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+  <h2>Projetos</h2>
+  <div class="projects__container">
+
+    <div class="projects__card">
+      <img class="card__cover" src="assets/images/projects/smartdiet.jpg" alt="Projeto Smart Diet">
+      <div class="card__body">
+        <h3 class="card__title">Smart Diet</h3>
+        <p class="card__description">Website inovador para auxiliar pessoas a manterem uma alimentação saudável de forma abundante e consciente. Oferece dicas nutricionais, planos alimentares personalizados e sugestões de alimentos naturais para uma vida mais equilibrada.</p>
+        <ul class="card__list">
+          <li class="card__item">Interface intuitiva e amigável;</li>
+          <li class="card__item">Conteúdo focado em nutrição saudável e sustentável;</li>
+          <li class="card__item">Ferramentas para monitoramento de hábitos alimentares.</li>
+        </ul>
+        <ul class="technologies__list">
+          <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/HTML.svg" alt="HTML"></li>
+          <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/CSS.svg" alt="CSS"></li>
+          <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/JavaScript.svg" alt="JavaScript"></li>
+        </ul>
+        <div class="card__buttons">
+          <a href="#" target="_blank"><button class="btn btn--primary"><span>Prévia</span><i class="bi bi-arrow-up-right"></i></button></a>
+          <a href="#" target="_blank"><button class="btn"><span>Repositório</span></button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects__card card--reverse">
+      <img class="card__cover" src="assets/images/projects/odontocare.jpg" alt="Projeto OdontoCare">
+      <div class="card__body">
+        <h3 class="card__title">OdontoCare</h3>
+        <p class="card__description">Sistema web e app para agendamento de consultas odontológicas, envio de orçamentos e prescrições, com armazenamento seguro em banco de dados. Desenvolvido com Bootstrap para garantir uma interface responsiva e prática.</p>
+        <ul class="card__list">
+          <li class="card__item">Agendamento online fácil e rápido;</li>
+          <li class="card__item">Envio e armazenamento de orçamentos e medicamentos;</li>
+          <li class="card__item">Design responsivo com Bootstrap.</li>
+        </ul>
+        
+        <ul class="technologies__list">
+          <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/html.png" alt="HTML"></li>
+          <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/css3.png" alt="CSS"></li>
+          <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Bootstrap"></li>
+          <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/js.jpg" alt="JavaScript"></li>
+        </ul>
+        <div class="card__buttons">
+          <a href="#" target="_blank"><button class="btn btn--primary"><span>Prévia</span><i class="bi bi-arrow-up-right"></i></button></a>
+          <a href="#" target="_blank"><button class="btn"><span>Repositório</span></button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects__card">
+      <img class="card__cover" src="assets/images/projects/flexbracelet.jpg" alt="Projeto Pulseira Flex Bracelet">
+      <div class="card__body">
+        <h3 class="card__title">Pulseira Flex Bracelet</h3>
+        <p class="card__description">Dispositivo vestível projetado para auxiliar o SUS na triagem de pacientes, captando sinais vitais em tempo real e agilizando o atendimento nas filas de hospitais e clínicas.</p>
+        <ul class="card__list">
+          <li class="card__item">Monitoramento contínuo dos sinais vitais;</li>
+          <li class="card__item">Interface simples para visualização e alertas;</li>
+          <li class="card__item">Facilita a priorização de emergências no atendimento.</li>
+        </ul>
+        <div class="card__buttons">
+          <a href="#" target="_blank"><button class="btn btn--primary"><span>Prévia</span><i class="bi bi-arrow-up-right"></i></button></a>
+          <a href="#" target="_blank"><button class="btn"><span>Repositório</span></button></a>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://github.com/goncalvesfelip" target="_blank">
+      <button class="btn btn--primary">
+        <span>Ver Todos os Projetos</span>
+        <i class="bi bi-arrow-up-right"></i>
+      </button>
+    </a>
+  </div>
+</section>
+
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar.jfif" alt="Foto de Gonçalves Felipe">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Sou Gonçalves Felipe Neto, apaixonado por tecnologia e inovação. Comecei minha jornada em TI em 2020 no IFTM, onde me formei em Manutenção e Suporte de Informática. Atualmente sou estudante de Análise e Desenvolvimento de Sistemas e atuo com suporte técnico, redes e desenvolvimento web.</p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/gonçalves-felipe-neto-5a7221228" target="_blank">
+            <button class="btn btn--primary"><span>Conecte-se Comigo</span><i class="bi bi-arrow-up-right"></i></button>
+          </a>
+          <a href="#"><button class="btn"><span>Currículo</span></button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Análise e Desenvolvimento de Sistemas</h4>
+          <span>2023 - Atualmente</span>
+          <div class="about__icons"><i class="bi bi-bank"></i><span>MSI/IFTM - 2022</span></div>
+          <div class="about__icons"><i class="bi bi-mortarboard"></i><span>ADS/IFTM - Atualmente</span></div>
+        </div>
+
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Estagiário de TI</h4>
+          <span>Grupo AMO - 2024</span>
+          <p>Atuação com suporte técnico, infraestrutura, inventário, telefonia/PABX e projetos de otimização.</p>
+          <ul class="about__list">
+            <li class="about__item">Gestão de usuários e impressoras;</li>
+            <li class="about__item">Manutenção de computadores;</li>
+            <li class="about__item">Projetos “Chamados 0” e “Redução de Armazenamento”.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start"><span>Versionamento de Código com Git e GitHub</span><i class="bi bi-caret-down-fill"></i></button>
+            <div class="accordion__body">
+              <p>Digital Innovation One. 2025.</p>
+              <p>Aprendizado sobre controle de versões, commits, branches e publicação de projetos no GitHub.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header"><span>Fundamentos de Redes de Computadores</span><i class="bi bi-caret-down-fill"></i></button>
+            <div class="accordion__body">
+              <p>IFTM. 2020.</p>
+              <p>Configuração de roteadores, switches e servidores DHCP/DNS utilizando Cisco Packet Tracer.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end"><span>Desenvolvimento Front-End com HTML, CSS e JS</span><i class="bi bi-caret-down-fill"></i></button>
+            <div class="accordion__body end">
+              <p>DIO. 2024.</p>
+              <p>Criação de layouts responsivos e interativos com foco em boas práticas de UI/UX.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para oportunidades, parcerias e novos projetos. Vamos conversar!</p>
+    <ul class="menu menu--social">
+      <li><a class="menu__link" href="https://github.com/goncalvesfelip" target="_blank"><i class="menu__icon bi bi-github"></i><span>GitHub</span></a></li>
+      <li><a class="menu__link" href="https://www.linkedin.com/in/gonçalves-felipe-neto-5a7221228" target="_blank"><i class="menu__icon bi bi-linkedin"></i><span>LinkedIn</span></a></li>
+      <li><a class="menu__link" href="#" target="_blank"><i class="menu__icon bi bi-instagram"></i><span>Instagram</span></a></li>
+    </ul>
+    <a href="mailto:goncalvesfelipneto@gmail.com">
+      <button class="btn btn--primary"><span class="email">goncalvesfelipneto@gmail.com</span></button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2025. Portfólio desenvolvido por 
+      <a href="https://github.com/goncalvesfelip" target="_blank">Gonçalves Felipe Neto</a> 
+      para o Lab "Construindo seu Portfólio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a>.
+    </p>
+  </footer>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
